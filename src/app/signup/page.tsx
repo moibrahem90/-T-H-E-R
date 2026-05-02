@@ -71,7 +71,7 @@ export default function SignUpPage() {
             transition={{ delay: 0.2 }}
             className="inline-block mb-6"
           >
-            <span className="font-serif text-3xl gold-gradient-text">Pure Earth.</span>
+            <span className="font-serif text-3xl gold-gradient-text drop-shadow-sm">È T H E R</span>
           </motion.div>
           <h1 className="text-3xl font-serif text-stone-900 mb-2">Create Account</h1>
           <p className="text-stone-500 font-light">Join us and start your journey today</p>

@@ -54,7 +54,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-stone-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
-          <p>© {new Date().getFullYear()} Pure Earth. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} <span className="gold-gradient-text drop-shadow-sm font-serif">È T H E R</span> All rights reserved.</p>
           <div className="flex gap-6">
             <span>Made with 🤍 in California</span>
             <span>Manual Zelle Payments</span>

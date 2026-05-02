@@ -92,7 +92,7 @@ export default function PolicyPage() {
             </div>
             <div className="space-y-4 text-stone-600 font-light leading-relaxed">
               <p>
-                We want you to completely love your Pure Earth creations. If you are unsatisfied with your purchase, we offer full refunds or exchanges within <strong>14 days</strong> of delivery.
+                We want you to completely love your <span className="gold-gradient-text drop-shadow-sm font-serif">È T H E R</span> creations. If you are unsatisfied with your purchase, we offer full refunds or exchanges within <strong>14 days</strong> of delivery.
               </p>
               <p>
                 Due to the natural and personal nature of our products, items must be unused and in their original packaging to qualify for a return. Please contact us on Instagram to initiate a return.

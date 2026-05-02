@@ -190,7 +190,7 @@ export default function Navbar() {
               className="fixed top-0 left-0 bottom-0 w-[85%] max-w-sm bg-[#faf8f5] z-50 shadow-2xl flex flex-col md:hidden border-r border-[#d4a84b]/20"
             >
               <div className="flex justify-between items-center p-6 border-b border-stone-200/50">
-                <span className="font-serif text-xl gold-gradient-text">Pure Earth.</span>
+                <span className="font-serif text-xl gold-gradient-text drop-shadow-sm">È T H E R</span>
                 <button
                   onClick={() => setMobileOpen(false)}
                   className="p-2 text-stone-500 hover:text-stone-800 bg-stone-100 rounded-full"
