@@ -63,7 +63,7 @@ export default function Navbar() {
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled
-          ? "bg-white/80 backdrop-blur-xl border-b border-white/50 shadow-[0_4px_30px_rgba(0,0,0,0.03)] py-4"
+          ? "bg-white/80 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.03)] py-4"
           : "bg-transparent py-6"
           }`}
       >
@@ -83,8 +83,7 @@ export default function Navbar() {
             href="/"
             className="font-serif text-2xl tracking-tight text-stone-900 hover:opacity-70 transition-opacity absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0"
           >
-            <span className={scrolled ? "gold-gradient-text" : "text-stone-800"}>Pure</span>{" "}
-            <span className="text-stone-900">Earth.</span>
+            <span className="gold-gradient-text drop-shadow-sm">È T H E R</span>{" "}
           </Link>
 
           {/* Desktop links */}
