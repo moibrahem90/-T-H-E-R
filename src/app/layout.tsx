@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "È T H E R",
   description: "Handmade natural products with relaxing scents.",
     icons: {
-    icon: "/image.png", // أو /favicon.ico
+    icon: "/photos/logo n.jpg"
   }
 };
 
