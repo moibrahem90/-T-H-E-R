@@ -7,6 +7,7 @@ import { Check, ShoppingBag } from "lucide-react";
 import { products } from "@/data/products";
 import { useCart } from "@/context/CartContext";
 import HeroAnimation from "@/components/HeroAnimation";
+import { Product } from "@/context/CartContext";
 
 // إعدادات الحركة (Variants)
 const fadeUpVariant = {
@@ -14,16 +15,16 @@ const fadeUpVariant = {
   visible: { 
     opacity: 1, 
     y: 0, 
-    transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } 
+    transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] as const } 
   }
 };
 
 
-function ProductActionButtons({ product }) {
-  const { addToCart } = useCart();
+function ProductActionButtons({ product }: { product: Product }) {
+    const { addToCart } = useCart();
   const [added, setAdded] = useState(false);
 
-  const handleAdd = (e) => {
+  const handleAdd = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault(); 
     addToCart(product);
     setAdded(true);
