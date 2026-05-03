@@ -71,30 +71,30 @@ export default function HeroAnimation() {
           className="flex flex-col items-center"
         >
           <p
-            className="text-xs uppercase tracking-[0.4em] mb-5 font-semibold drop-shadow-sm"
+            className="text-xs md:text-sm uppercase tracking-[0.4em] mb-5 font-bold drop-shadow-md"
             style={{ color: "#a07828" }}
           >
             Handmade · Natural · Irvine, California
           </p>
           <h1
-            className="font-serif text-stone-900 mb-6 leading-none drop-shadow-md"
+            className="font-serif text-stone-900 mb-6 leading-none drop-shadow-xl font-bold"
             style={{ fontSize: "clamp(3.5rem, 9vw, 7rem)", letterSpacing: "-0.02em" }}
           >
             <span className="gold-gradient-text drop-shadow-sm">È T H E R</span>{" "}
           </h1>
-          <p className="text-base md:text-lg text-stone-800 font-medium mb-10 max-w-sm leading-relaxed drop-shadow-sm">
+          <p className="text-base md:text-xl text-stone-900 font-semibold mb-10 max-w-sm md:max-w-md leading-relaxed drop-shadow-md">
             Handcrafted natural soaps & candles with relaxing botanical scents.
           </p>
           <div className="pointer-events-auto flex flex-col sm:flex-row gap-4">
             <Link
               href="/products"
-              className="btn-gold inline-block px-10 py-4 rounded-full text-sm font-semibold tracking-wide"
+              className="btn-gold inline-block px-10 py-4 rounded-full text-sm md:text-base font-bold tracking-wide shadow-lg"
             >
               Explore Collection
             </Link>
             <Link
               href="/policy"
-              className="inline-block border border-stone-400 text-stone-800 px-8 py-4 rounded-full text-sm font-semibold hover:border-stone-800 hover:bg-stone-800 hover:text-white transition-all duration-300 bg-white/60 backdrop-blur-md"
+              className="inline-block border-2 border-stone-800 text-stone-900 px-8 py-4 rounded-full text-sm md:text-base font-bold hover:bg-stone-900 hover:text-white transition-all duration-300 bg-white/70 backdrop-blur-md shadow-lg"
             >
               Our Story
             </Link>

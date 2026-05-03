@@ -37,14 +37,14 @@ export default function ProductsPage() {
                   alt={product.name}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-contain p-10 mix-blend-multiply transition-all duration-700 group-hover:scale-110 drop-shadow-sm group-hover:drop-shadow-2xl"
+                  className="object-cover object-center transition-all duration-700 group-hover:scale-110 drop-shadow-sm group-hover:drop-shadow-2xl"
                 />
 
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#d4a84b]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
                 
                 {/* View Details Pill */}
-                <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-md px-6 py-2.5 rounded-full text-xs font-semibold tracking-wide text-stone-800 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 shadow-[0_8px_30px_rgba(0,0,0,0.1)] whitespace-nowrap">
+                <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-md px-6 py-2.5 rounded-full text-xs font-semibold tracking-wide text-stone-800 opacity-100 translate-y-0 md:opacity-0 md:translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-500 shadow-[0_8px_30px_rgba(0,0,0,0.1)] whitespace-nowrap">
                   View Details
                 </div>
               </div>

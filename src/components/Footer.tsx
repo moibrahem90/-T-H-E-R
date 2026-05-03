@@ -14,14 +14,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="font-serif text-3xl text-stone-50 block mb-6">
-              <span className="text-[#d4a84b]">Pure</span> Earth.
+              <span className="text-[#d4a84b]">É T H E R</span> 
             </Link>
             <p className="text-stone-400 max-w-sm text-sm leading-relaxed mb-8">
               Handmade natural soaps and candles crafted in Irvine, California. 
               We believe in the power of slow rituals and pure botanical ingredients.
             </p>
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/etheratelier2026?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
               target="_blank" 
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[#d4a84b] hover:text-[#f5e6c0] transition-colors group"
